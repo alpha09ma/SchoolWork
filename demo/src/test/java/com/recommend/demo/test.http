@@ -1,0 +1,10 @@
+### Send POST request with json body
+POST https://localhost:8888/comment
+Content-Type: application/json
+
+{
+  "id": 999,
+  "rating":10,
+  "recommend": "content",
+  "timestamp": 1234556
+}
